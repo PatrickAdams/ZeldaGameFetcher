@@ -19,6 +19,7 @@ class ZeldaGameCell: UITableViewCell {
             titleLabel.text = zeldaGame?.name
             descriptionLabel.text = zeldaGame?.info
             imageThumb.imageFromServerURL(urlString: (zeldaGame?.thumbUrl)!)
+            imageThumb.roundCorners(cornerRadius: 5)
         }
     }
 }

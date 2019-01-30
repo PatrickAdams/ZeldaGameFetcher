@@ -15,6 +15,6 @@ class FirstViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         button.setTitle("Load Zelda Games", for: .normal)
-        button.setTitle("Hold down", for: .highlighted)
+        button.roundCorners(cornerRadius: 8)
     }
 }

@@ -2,11 +2,11 @@
   "images" : [
     {
       "idiom" : "universal",
+      "filename" : "herossheild_dribbbl.png",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
-      "filename" : "herossheild_dribbbl.png",
       "scale" : "2x"
     },
     {
